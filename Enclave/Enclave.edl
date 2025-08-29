@@ -1,0 +1,11 @@
+enclave {
+    from "sgx_tstdc.edl" import *;
+
+    trusted {
+        public int add(int a, int b);
+    };
+
+    untrusted {
+        void ocall_print([in, string] const char* str);
+    };
+};

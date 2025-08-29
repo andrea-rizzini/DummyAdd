@@ -1,0 +1,21 @@
+# Build artifacts
+*.o
+*.a
+*.so
+*.signed.so
+app
+
+# Edger8r generated
+App/Enclave_u.c
+App/Enclave_u.h
+Enclave/Enclave_t.c
+Enclave/Enclave_t.h
+
+# Keys
+*.pem
+
+# Misc
+.DS_Store
+.vscode/
+.idea/
+build/
